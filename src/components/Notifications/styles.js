@@ -48,6 +48,17 @@ export const NotificationList = styled.div`
     border-right: 20px solid transparent;
     border-bottom: 20px solid rgba(0, 0, 0, 0.6);
   }
+
+  .NotNotifi {
+    display: flex;
+    justify-content: center;
+
+    strong {
+      color: #fff;
+      font-size: 14px;
+      line-height: 18px;
+    }
+  }
 `;
 
 export const Scroll = styled(PefectScrollbar)`
